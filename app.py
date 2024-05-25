@@ -22,7 +22,7 @@ def main():
         selected
     
     if selected == 'Home' :
-        st.title(":blue[BOOK RECOMMENDATION PREDICTOR] :Book:")
+        st.title(":blue[BOOK RECOMMENDATION PREDICTOR] :book:")
         content_html = """"""
         st.write(content_html)
         html_temp_home1 = """<div style="padding:10px">
