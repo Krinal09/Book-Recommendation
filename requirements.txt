@@ -1,3 +1,2 @@
 Streamlit == 1.35.0
 numpy == 1.26.4
-streamlit_option_menu == 1.16.0 
