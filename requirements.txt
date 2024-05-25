@@ -1,2 +1,5 @@
-Streamlit == 1.35.0
-numpy == 1.26.4
+streamlit
+numpy
+pandas
+scikit-learn
+streamlit-option-menu
