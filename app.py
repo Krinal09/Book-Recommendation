@@ -26,12 +26,12 @@ def main():
         content_html = """"""
         st.write(content_html)
         html_temp_home1 = """<div style="padding:10px">
-                                <h2 style="color:sky">Book Recommender System</h2>                 
+                                <h2 style="color:sky">Top Books</h2>                 
                                 </div>
                                 </br>"""
         st.markdown(html_temp_home1, unsafe_allow_html=True)
         
-        st.write('### Top Books')
+        # st.write('### Top Books')
         for title, author, img_url, votes in zip(
             final_rating['title'].values, 
             final_rating['author'].values, 
